@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hello, I'm Ramin Afghanyar</h1>
+        <p>Welcome to my personal website!</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message" class="hidden">Thanks for visiting my website!</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am learning web development. I love programming, building small projects, and improving my skills every day.
+        </p>
+        <button onclick="toggleMore()">Read More</button>
+        <p id="moreText" class="hidden">
+            I also enjoy playing video games, exploring technology, and sharing knowledge with others.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li style="text-align: left;">HTML</li>
+            <li style="text-align: left;">CSS</li>
+            <li style="text-align: left;">JavaScript</li>
+            <li style="text-align: left;">Python</li>
+            <li style="text-align: left;">Basic Django</li>
+            <li style="text-align: left;">Basic C</li>
+            <li style="text-align: left;">Basic C++</li>
+            <li style="text-align: left;">Basic Java</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+<div class="contact-info">
+    <p>👤 <strong>Ramin Afghanyar</strong></p>
+    <p>📧 <a href="mailto:afghanyar@gmail.com">afghanyar@gmail.com</a></p>
+    <p>💬 <a href="https://wa.me/41782570196">+41 78 257 01 96</a></p>
+    <p>📍 <a href="https://www.google.com/maps/search/Altdorf+%28UR%29%2C+Uri%2C+6460%2C+Switzerland">Altdorf, Kanton Uri 6460, Switzerland</a></p>
+</div>
+
+        <button id="buttonclick">Send a Message
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" id="submit">Send</button>
+        </form>
+        </button>
+        <p id="formMessage" class="hidden">Thank you! I will contact you soon.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Afghanyar| My Personal Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

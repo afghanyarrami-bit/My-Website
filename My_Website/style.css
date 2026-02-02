@@ -1,0 +1,153 @@
+/* Reset some defaults */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+/* Sections */
+section {
+    padding: 100px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #f2f2f2;
+}
+
+#about {
+    background-color: #e6f7ff;
+}
+
+#skills {
+    background-color: #fff2e6;
+}
+
+#contact {
+    background-color: #ffe6e6;
+}
+
+/* Buttons */
+button {
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hidden elements */
+.hidden {
+    display: none;
+}
+
+/* Form styling */
+form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+form button {
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+/* plan today Html and CSS 100 lines finshed */
+/* for Towmarow 50 lines css and JavaScript and all css reapetion */
+
+.contact-info {
+    margin-top: 30px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-info p {
+    margin: 4px 0;
+}
+
+.contact-info a {
+    color: #1a73e8; /* subtle professional blue */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+#buttonclick {
+    text-align: left;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#buttonclick:hover {
+    background-color: #1558b0;
+}
+
+
+/* Submit button styling */
+#submit {
+    background-color: #3ecf69; /* green button */
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
