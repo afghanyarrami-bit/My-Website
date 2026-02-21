@@ -119,7 +119,11 @@ cd person-website
 Double-click `Person_Website.html` — or open with **Live Server** in VS Code.
 
 ---
-## Screanshoot 
+## 📸 Screenshots
+
+<img width="2732" height="822" alt="Image" src="https://github.com/user-attachments/assets/9e815776-5eee-4dc3-b1ec-8bfddb4fae6e" />
+
+<img width="2833" height="1515" alt="Image" src="https://github.com/user-attachments/assets/25bbf90e-4a90-4357-9eb0-c5f2c932c001" />
 
 ---
 ## 📬 Contact Info (on Website)
